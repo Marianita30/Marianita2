@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf_8">
+        <title> Primer encuesta</title>
+        <style>
+            body {
+                background-image: url(https://www.nationalgeographic.com.es/medio/2018/02/27/playa-de-isuntza-lekeitio__1280x720.jpg);
+                background-repeat: no-repeat;
+                background-color: darkred;
+                background-position: left;
+                margin-left: 80px;
+            }
+            form{
+                border: 3;
+                border-color: blueviolet;
+                width: 340px;
+                border-radius: 6%;
+            }
+            p{
+                color:crimson;
+                font-style: Arial;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Ingrese sus datos</h1>
+        <br>
+        <form>
+            Ingrese su nombre <input type="text" name="Nombre alumno" size="50"><br>
+            Ingrese su Edad <input type="number" name="Edad alumno"
+                            min="12"
+                            max="25">
+            <br>
+            Selecione su sexo<br>
+            Mujer <input type="radio" name="sex" value="mujer" checked><br>
+            Hombre <input type="radio" name="sex" value="hombre"><br>
+            <br>
+            <input type="submit" value="Grabar Datos">
+            <input type="reset" value="Borrar Datos">
+        </form>
+    </body>
+</html>
